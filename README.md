@@ -1,9 +1,11 @@
+Note: this is a fork of [react-native-aws3](http://npmjs.com/package/react-native-aws3). It fixes issues related to [form-data](https://github.com/benjreinhart/react-native-aws3/search?q=formdata&type=Issues)
+
 # React Native AWS3
 
 React Native AWS3 is a module for uploading files to S3. Unlike other libraries out there, there are no native dependencies.
 
 ```
-npm install --save react-native-aws3
+npm install --save react-native-aws3-fork
 ```
 
 [![build status](https://circleci.com/gh/benjreinhart/react-native-aws3.svg?style=shield&circle-token=c7cb5ba4654c9d66bbfeac9809e50aa0fbf0af09)](https://circleci.com/gh/benjreinhart/react-native-aws3)
