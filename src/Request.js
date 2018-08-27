@@ -103,5 +103,5 @@ export class Request {
   }
 }
 
-Request.FormData = FormData
-Request.XMLHttpRequest = XMLHttpRequest
+Request.FormData = require('form-data');
+Request.XMLHttpRequest = require('xhr2');

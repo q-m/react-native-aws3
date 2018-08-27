@@ -1,6 +1,6 @@
 {
-  "name": "react-native-aws3",
-  "version": "0.0.8",
+  "name": "react-native-aws3-fork",
+  "version": "0.0.9",
   "description": "Pure JavaScript react native library for uploading to AWS S3",
   "author": {
     "name": "Ben Reinhart"
@@ -36,7 +36,9 @@
   },
   "dependencies": {
     "buffer": "^4.5.1",
-    "crypto-js": "^3.1.6"
+    "crypto-js": "^3.1.6",
+    "form-data": "~2.3.2",
+    "xhr2": "~0.1.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
